@@ -8,6 +8,7 @@ func main() {
 	//Naming conventions controls visibility
 	//lowercase variables are scoped to the package,
 	//which means anything consume the package cant see and manipulate variables with lowercase
+	//no private scope
 
 	var i int = 3
 	var theURL = "https://google.com"
