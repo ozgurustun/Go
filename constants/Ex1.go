@@ -5,12 +5,13 @@ import (
 	"math"
 )
 
+//Immutable but can be shadowed
+//Value must be calculable at compile time
 const a int16 = 55
 
 func main() {
 
 	const x float64 = 555.55
-	//constants have to be assignable at compile time
 	//const errorConstant float64 = math.Sin(1.55)
 	const constantOne string = "Constant One"
 
